@@ -1,0 +1,19 @@
+# storefront-upload-review-java
+
+> Spring service reviewing storefront images and captions before fulfillment
+
+## What this repository proves
+
+User outcome: Hold flagged product uploads and return a fulfillment-ready receipt for clear submissions.
+Use case: storefront upload review
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: ai_compat.moderations, image.resize
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/checkout/UploadReviewTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

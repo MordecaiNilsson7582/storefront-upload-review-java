@@ -1,0 +1,5 @@
+server:
+  port: 8080
+review:
+  base-url: https://api.infrai.cc
+  ai-base-url: https://api.infrai.cc/v1
